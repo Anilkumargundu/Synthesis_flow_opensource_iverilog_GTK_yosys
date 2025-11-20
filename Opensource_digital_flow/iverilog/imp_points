@@ -1,0 +1,12 @@
+SRAM Verilog testbench : 
+A synchronous RAM writes data ONLY at the rising edge of the clock.
+At that exact rising edge, the RAM samples: Whatever these signals are AT THAT MOMENT, the RAM uses.
+Example :
+  we = 1;
+  rst = 0;
+  @(posedge clk)
+  addr = address;
+  wrdata = data_tmp;
+  we = 0;
+Comments :
+  we     = 1, addr   = OLD_VALUE   (whatever was there before), wrdata = OLD_VALUE
