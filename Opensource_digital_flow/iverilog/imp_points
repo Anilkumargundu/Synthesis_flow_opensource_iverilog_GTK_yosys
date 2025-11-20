@@ -10,3 +10,7 @@ Example :
   we = 0;
 Comments :
   we     = 1, addr   = OLD_VALUE   (whatever was there before), wrdata = OLD_VALUE
+
+✅ Golden Rule of Testbench Timing
+  Anything written before @(posedge clk) happens in the current clock cycle.
+  Anything written after @(posedge clk) happens in the next clock cycle.
