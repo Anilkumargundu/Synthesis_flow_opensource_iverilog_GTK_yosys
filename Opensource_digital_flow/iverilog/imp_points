@@ -14,3 +14,4 @@ Comments :
 ✅ Golden Rule of Testbench Timing
   Anything written before @(posedge clk) happens in the current clock cycle.
   Anything written after @(posedge clk) happens in the next clock cycle.
+/home/anilk/whyRD_eda_bundle/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
