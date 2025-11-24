@@ -15,3 +15,12 @@ Comments :
   Anything written before @(posedge clk) happens in the current clock cycle.
   Anything written after @(posedge clk) happens in the next clock cycle.
 /home/anilk/whyRD_eda_bundle/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+
+Skywater_130 lib file scale I am using
+time_unit : "1ns";
+    voltage_unit : "1V";
+    leakage_power_unit : "1nW";
+    current_unit : "1mA";
+    pulling_resistance_unit : "1kohm";
+    capacitive_load_unit(1.0000000000, "pf");
