@@ -24,3 +24,7 @@ time_unit : "1ns";
     current_unit : "1mA";
     pulling_resistance_unit : "1kohm";
     capacitive_load_unit(1.0000000000, "pf");
+
+
+get_lib_pins sky130_fd_sc_hd__edfxtp_1/*
+
