@@ -17,7 +17,7 @@ These files define the design and verify functionality before synthesis.
   SRAM.vcd
   VCD waveform file generated during simulation for signal inspection.
 
-🔹 2.** RTL Synthesis (Yosys)**
+🔹 2.**RTL Synthesis (Yosys)**
 These files are used to synthesize the RTL into a gate-level netlist.
 
   64b_memory_yosys.tcl
