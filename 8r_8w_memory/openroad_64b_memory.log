@@ -1,0 +1,701 @@
+OpenROAD v2.0-26293-g53af9e7c4e 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/anilk/whyRD_eda_bundle/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/anilk/whyRD_eda_bundle/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/anilk/whyRD_eda_bundle/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[WARNING IFP-0028] Core area lower left (10.000, 11.200) snapped to (10.120, 13.600).
+[INFO IFP-0001] Added 28 rows of 282 site unithd.
+[INFO RSZ-0026] Removed 0 buffers.
+[WARNING PPL-0113] -random and -random_seed are obsolete. Skipping random pin placement.
+[INFO TAP-0005] Inserted 135 tapcells.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[INFO PDN-0001] Inserting grid: grid
+[INFO GPL-0005] Execute conjugate gradient initial placement.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 13.600 ) ( 139.840 89.760 ) um
+[INFO GPL-0032] Initializing region: Top-level
+[INFO GPL-0006] Number of instances:               377
+[INFO GPL-0007] Movable instances:                 242
+[INFO GPL-0008] Fixed instances:                   135
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                    256
+[INFO GPL-0011] Number of pins:                   1037
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 150.000 100.000 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 13.600 ) ( 139.840 89.760 ) um
+[INFO GPL-0016] Core area:                    9879.475 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                  9879.475 um^2
+[INFO GPL-0017] Fixed instances area:          168.912 um^2
+[INFO GPL-0018] Movable instances area:       6019.523 um^2
+[INFO GPL-0019] Utilization:                    61.989 %
+[INFO GPL-0020] Standard cells area:          6019.523 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0033] Initializing Nesterov region: Top-level
+[WARNING GPL-0302] Target density 0.3000 is too low for the available free area.
+Automatically adjusting to uniform density 0.6200.
+[INFO GPL-0023] Placement target density:       0.6200
+[INFO GPL-0024] Movable insts average area:     24.874 um^2
+[INFO GPL-0025] Ideal bin area:                 40.119 um^2
+[INFO GPL-0026] Ideal bin count:                   246
+[INFO GPL-0027] Total bin area:               9879.475 um^2
+[INFO GPL-0028] Bin count (X, Y):           8 ,      8
+[INFO GPL-0029] Bin size (W * H):      16.215 *  9.520 um
+[INFO GPL-0030] Number of bins:                     64
+[INFO GPL-0007] Execute nesterov global placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9371 |  9.509430e+02 |   +0.00% |  6.40e-14 |      
+       10 |   0.9152 |  2.515820e+02 |  -73.54% |  1.04e-13 |      
+       20 |   0.9179 |  2.606070e+02 |   +3.59% |  1.70e-13 |      
+       30 |   0.9175 |  2.584120e+02 |   -0.84% |  2.77e-13 |      
+       40 |   0.9174 |  2.585000e+02 |   +0.03% |  4.51e-13 |      
+       50 |   0.9174 |  2.581370e+02 |   -0.14% |  7.34e-13 |      
+       60 |   0.9173 |  2.576630e+02 |   -0.18% |  1.20e-12 |      
+       70 |   0.9171 |  2.570550e+02 |   -0.24% |  1.95e-12 |      
+       80 |   0.9169 |  2.558600e+02 |   -0.46% |  3.17e-12 |      
+       90 |   0.9166 |  2.540950e+02 |   -0.69% |  5.17e-12 |      
+      100 |   0.9161 |  2.518730e+02 |   -0.87% |  8.42e-12 |      
+      110 |   0.9149 |  2.537770e+02 |   +0.76% |  1.37e-11 |      
+      120 |   0.9118 |  2.704200e+02 |   +6.56% |  2.23e-11 |      
+      130 |   0.9061 |  3.274310e+02 |  +21.08% |  3.64e-11 |      
+      140 |   0.8977 |  5.058460e+02 |  +54.49% |  5.93e-11 |      
+      150 |   0.8354 |  1.038807e+03 | +105.36% |  9.66e-11 |      
+      160 |   0.8321 |  1.154931e+03 |  +11.18% |  1.57e-10 |      
+      170 |   0.7962 |  1.473337e+03 |  +27.57% |  2.56e-10 |      
+      180 |   0.7403 |  1.768909e+03 |  +20.06% |  4.17e-10 |      
+      190 |   0.6569 |  2.119570e+03 |  +19.82% |  6.80e-10 |      
+      200 |   0.6029 |  2.215484e+03 |   +4.53% |  1.11e-09 |      
+      210 |   0.5555 |  2.359454e+03 |   +6.50% |  1.80e-09 |      
+      220 |   0.5021 |  2.415495e+03 |   +2.38% |  2.94e-09 |      
+      230 |   0.4470 |  2.443143e+03 |   +1.14% |  4.78e-09 |      
+      240 |   0.3815 |  2.688983e+03 |  +10.06% |  7.79e-09 |      
+      250 |   0.3349 |  2.801440e+03 |   +4.18% |  1.26e-08 |      
+      260 |   0.2945 |  2.820064e+03 |   +0.66% |  1.85e-08 |      
+      270 |   0.2578 |  2.915300e+03 |   +3.38% |  2.73e-08 |      
+      280 |   0.2219 |  2.904835e+03 |   -0.36% |  4.02e-08 |      
+      290 |   0.2084 |  2.901568e+03 |   -0.11% |  5.92e-08 |      
+      300 |   0.2001 |  2.991361e+03 |   +3.09% |  8.72e-08 |      
+      310 |   0.1767 |  2.992160e+03 |   +0.03% |  1.28e-07 |      
+      320 |   0.1426 |  3.110054e+03 |   +3.94% |  1.89e-07 |      
+      330 |   0.1118 |  3.123841e+03 |   +0.44% |  2.79e-07 |      
+      334 |   0.0978 |  3.143106e+03 |          |  3.38e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 334
+[INFO GPL-1002] Placed Cell Area             6019.5232
+[INFO GPL-1003] Available Free Area          9710.5632
+[INFO GPL-1004] Minimum Feasible Density        0.6200 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.6888
+[INFO GPL-1008]     - For 80% usage of free space: 0.7749
+[INFO GPL-1014] Final placement area: 6019.52 (+0.00%)
+Found 0 macro blocks.
+[INFO PPL-0044] Pin group: [ clk rst we ]
+[INFO PPL-0044] Pin group: [ VDD VSS ]
+[INFO PPL-0044] Pin group: [ addr[0] addr[1] addr[2] ]
+[INFO PPL-0044] Pin group: [ wrdata[0] wrdata[1] wrdata[2] wrdata[3] wrdata[4] ... ]
+[INFO PPL-0044] Pin group: [ rddata[0] rddata[1] rddata[2] rddata[3] rddata[4] ... ]
+[INFO PPL-0001] Number of available slots 96
+[INFO PPL-0002] Number of I/O             24
+[INFO PPL-0003] Number of I/O w/sink      24
+[INFO PPL-0004] Number of I/O w/o sink    0
+[INFO PPL-0006] Number of I/O Groups    5
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 2740.55 um.
+[INFO GPL-0005] Execute conjugate gradient initial placement.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: ( 10.120 13.600 ) ( 139.840 89.760 ) um
+[INFO GPL-0032] Initializing region: Top-level
+[INFO GPL-0006] Number of instances:               377
+[INFO GPL-0007] Movable instances:                 242
+[INFO GPL-0008] Fixed instances:                   135
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                    256
+[INFO GPL-0011] Number of pins:                   1059
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 150.000 100.000 ) um
+[INFO GPL-0013] Core BBox: ( 10.120 13.600 ) ( 139.840 89.760 ) um
+[INFO GPL-0016] Core area:                    9879.475 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                  9879.475 um^2
+[INFO GPL-0017] Fixed instances area:          168.912 um^2
+[INFO GPL-0018] Movable instances area:       6019.523 um^2
+[INFO GPL-0019] Utilization:                    61.989 %
+[INFO GPL-0020] Standard cells area:          6019.523 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.00000011 HPWL: 7892353
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00000011 HPWL: 4999974
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00000011 HPWL: 4953538
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00000009 HPWL: 4906304
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00000010 HPWL: 4866779
+[INFO GPL-0033] Initializing Nesterov region: Top-level
+[WARNING GPL-0302] Target density 0.3000 is too low for the available free area.
+Automatically adjusting to uniform density 0.6200.
+[INFO GPL-0023] Placement target density:       0.6200
+[INFO GPL-0024] Movable insts average area:     24.874 um^2
+[INFO GPL-0025] Ideal bin area:                 40.119 um^2
+[INFO GPL-0026] Ideal bin count:                   246
+[INFO GPL-0027] Total bin area:               9879.475 um^2
+[INFO GPL-0028] Bin count (X, Y):           8 ,      8
+[INFO GPL-0029] Bin size (W * H):      16.215 *  9.520 um
+[INFO GPL-0030] Number of bins:                     64
+[INFO GPL-0007] Execute nesterov global placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9007 |  1.602859e+03 |   +0.00% |  4.57e-15 |      
+       10 |   0.8370 |  2.027863e+03 |  +26.52% |  7.44e-15 |      
+       20 |   0.8368 |  2.051476e+03 |   +1.16% |  1.21e-14 |      
+       30 |   0.8356 |  2.046355e+03 |   -0.25% |  1.97e-14 |      
+       40 |   0.8346 |  2.029817e+03 |   -0.81% |  3.22e-14 |      
+       50 |   0.8349 |  2.018133e+03 |   -0.58% |  5.24e-14 |      
+       60 |   0.8356 |  2.018087e+03 |   -0.00% |  8.53e-14 |      
+       70 |   0.8363 |  2.020740e+03 |   +0.13% |  1.39e-13 |      
+       80 |   0.8364 |  2.022349e+03 |   +0.08% |  2.26e-13 |      
+       90 |   0.8361 |  2.023455e+03 |   +0.05% |  3.69e-13 |      
+      100 |   0.8358 |  2.024329e+03 |   +0.04% |  6.01e-13 |      
+      110 |   0.8350 |  2.026248e+03 |   +0.09% |  9.79e-13 |      
+      120 |   0.8327 |  2.032050e+03 |   +0.29% |  1.59e-12 |      
+      130 |   0.8258 |  2.041713e+03 |   +0.48% |  2.60e-12 |      
+      140 |   0.8084 |  2.054843e+03 |   +0.64% |  4.23e-12 |      
+      150 |   0.8045 |  2.072679e+03 |   +0.87% |  6.89e-12 |      
+      160 |   0.7988 |  2.105131e+03 |   +1.57% |  1.12e-11 |      
+      170 |   0.7942 |  2.155048e+03 |   +2.37% |  1.83e-11 |      
+      180 |   0.7992 |  2.247770e+03 |   +4.30% |  2.98e-11 |      
+      190 |   0.7600 |  2.378377e+03 |   +5.81% |  4.85e-11 |      
+      200 |   0.7518 |  2.536396e+03 |   +6.64% |  7.90e-11 |      
+      210 |   0.7305 |  2.714068e+03 |   +7.00% |  1.29e-10 |      
+      220 |   0.7044 |  2.895721e+03 |   +6.69% |  2.10e-10 |      
+      230 |   0.6970 |  3.083247e+03 |   +6.48% |  3.41e-10 |      
+      240 |   0.6551 |  3.304603e+03 |   +7.18% |  5.56e-10 |      
+      250 |   0.5990 |  3.430489e+03 |   +3.81% |  9.06e-10 |      
+[INFO GPL-0038] Routability snapshot saved at iter = 251
+      250 |   0.5990 |  3.430489e+03 |          |           |      
+      260 |   0.5555 |  3.567364e+03 |   +3.99% |  1.48e-09 |      
+      270 |   0.5088 |  3.764098e+03 |   +5.51% |  2.40e-09 |      
+      280 |   0.4677 |  3.895414e+03 |   +3.49% |  3.91e-09 |      
+      290 |   0.4061 |  3.964157e+03 |   +1.76% |  6.38e-09 |      
+      300 |   0.3400 |  4.028392e+03 |   +1.62% |  1.04e-08 |      
+[INFO GPL-0040] Routability iteration: 1
+[INFO GPL-0041] Total routing overflow: 0.0000
+[INFO GPL-0042] Number of overflowed tiles: 0 (0.00%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 0.9501
+[INFO GPL-0044] Average top 1.0% routing congestion: 0.9353
+[INFO GPL-0045] Average top 2.0% routing congestion: 0.9152
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.8845
+[INFO GPL-0047] Routability iteration weighted routing congestion: 0.9427
+[INFO GPL-0050] Weighted routing congestion is lower than target routing congestion(1.0100), end routability optimization.
+[INFO GPL-0090] Routability finished. Target routing congestion achieved succesfully.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      310 |   0.2914 |  4.006863e+03 |   -0.53% |  1.53e-08 |      
+      320 |   0.2459 |  3.990756e+03 |   -0.40% |  2.25e-08 |      
+      330 |   0.2067 |  4.000895e+03 |   +0.25% |  3.32e-08 |      
+      340 |   0.1775 |  4.033086e+03 |   +0.80% |  4.89e-08 |      
+      350 |   0.1545 |  4.070243e+03 |   +0.92% |  7.21e-08 |      
+      360 |   0.1318 |  4.078535e+03 |   +0.20% |  1.06e-07 |      
+      370 |   0.1091 |  4.063043e+03 |   -0.38% |  1.56e-07 |      
+      375 |   0.0999 |  4.109546e+03 |          |  1.97e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 375
+[INFO GPL-1003] Routability mode iteration count: 57
+[INFO GPL-1005] Routability final weighted congestion: 0.9177
+[INFO GPL-1002] Placed Cell Area             6019.5232
+[INFO GPL-1003] Available Free Area          9710.5632
+[INFO GPL-1004] Minimum Feasible Density        0.6200 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.6888
+[INFO GPL-1008]     - For 80% usage of free space: 0.7749
+[INFO GPL-1011] Original area (um^2): 6019.52
+[INFO GPL-1012] Total routability artificial inflation: 0.00 (+0.00%)
+[INFO GPL-1014] Final placement area: 6019.52 (+0.00%)
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |       258
+    final |     +9.9% |       8 |      47 |            20 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 18 slew violations.
+[INFO RSZ-0035] Found 3 fanout violations.
+[INFO RSZ-0039] Resized 8 instances.
+[INFO RSZ-0038] Inserted 47 buffers in 20 nets.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |       305
+    final |     +1.7% |       6 |       5 |             6 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 6 slew violations.
+[INFO RSZ-0039] Resized 6 instances.
+[INFO RSZ-0038] Inserted 5 buffers in 6 nets.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |       310
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |       310
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+Placement Analysis
+---------------------------------
+total displacement       1635.4 u
+average displacement        3.8 u
+max displacement           12.9 u
+original HPWL            5599.7 u
+legalized HPWL           7564.5 u
+delta HPWL                   35 %
+
+worst slack min 0.273
+worst slack max 8.456
+tns max 0.000
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_4.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_4.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_4
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_4.
+[INFO CTS-0007] Net "clk" found for clock "CLK".
+[INFO CTS-0010]  Clock net "clk" has 72 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 1 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 72.
+[INFO CTS-0029]  Register sinks will be clustered in groups of up to 20 and with maximum cluster diameter of 100.0 um.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0023]  Original sink region: [(18670, 17740), (123090, 85620)].
+[INFO CTS-0024]  Normalized sink region: [(1.37279, 1.30441), (9.05074, 6.29559)].
+[INFO CTS-0025]     Width:  7.6779.
+[INFO CTS-0026]     Height: 4.9912.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 36
+    Sub-region size: 3.8390 X 4.9912
+[INFO CTS-0034]     Segment length (rounded): 2.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 18
+    Sub-region size: 3.8390 X 2.4956
+[INFO CTS-0034]     Segment length (rounded): 1.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 9
+    Sub-region size: 1.9195 X 2.4956
+[INFO CTS-0034]     Segment length (rounded): 1.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 72.
+[INFO CTS-0018]     Created 9 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+[INFO CTS-0015]     Created 9 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 8:4, 9:2, 10:1, 12:1..
+[INFO CTS-0017]     Max level of the clock tree: 3.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 79
+[INFO CTS-0100]  Leaf buffers 0
+[INFO CTS-0101]  Average sink wire length 152.90 um
+[INFO CTS-0102]  Path depth 2 - 2
+[INFO CTS-0207]  Leaf load cells 7
+[INFO RSZ-0058] Using max wire length 2506um.
+Placement Analysis
+---------------------------------
+total displacement        258.3 u
+average displacement        0.6 u
+max displacement           10.6 u
+original HPWL            7952.9 u
+legalized HPWL           8128.8 u
+delta HPWL                    2 %
+
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove SplitLoadMove 
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0046] Found 26 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   Area   |   WNS   |   TNS   | Endpoint
+--------------------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |    +0.0% |  -0.145 |  -2.212 | _346_/D
+    final |       0 |       8 |            0 |    +1.9% |   0.446 |   0.000 | _340_/D
+--------------------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 8 hold buffers.
+worst slack min 0.446
+worst slack max 8.435
+tns max 0.000
+Placement Analysis
+---------------------------------
+total displacement        105.3 u
+average displacement        0.2 u
+max displacement           18.8 u
+original HPWL            8123.3 u
+legalized HPWL           8145.3 u
+delta HPWL                    0 %
+
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+
+Units:                1000
+Number of layers:     13
+Number of macros:     437
+Number of vias:       29
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+
+Design:                   b64_memory
+Die area:                 ( 0 0 ) ( 150000 100000 )
+Number of track patterns: 12
+Number of DEF vias:       0
+Number of components:     453
+Number of terminals:      24
+Number of snets:          2
+Number of nets:           325
+
+[INFO DRT-0167] List of default vias:
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 52.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete FR_MASTERSLICE.
+[INFO DRT-0024]   Complete licon.
+[INFO DRT-0024]   Complete li1.
+[INFO DRT-0024]   Complete mcon.
+[INFO DRT-0024]   Complete met1.
+[INFO DRT-0024]   Complete via.
+[INFO DRT-0024]   Complete met2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete met3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete met4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete met5.
+[INFO DRT-0033] FR_MASTERSLICE shape region query size = 0.
+[INFO DRT-0033] licon shape region query size = 0.
+[INFO DRT-0033] li1 shape region query size = 12243.
+[INFO DRT-0033] mcon shape region query size = 0.
+[INFO DRT-0033] met1 shape region query size = 2336.
+[INFO DRT-0033] via shape region query size = 655.
+[INFO DRT-0033] met2 shape region query size = 409.
+[INFO DRT-0033] via2 shape region query size = 524.
+[INFO DRT-0033] met3 shape region query size = 401.
+[INFO DRT-0033] via3 shape region query size = 524.
+[INFO DRT-0033] met4 shape region query size = 163.
+[INFO DRT-0033] via4 shape region query size = 23.
+[INFO DRT-0033] met5 shape region query size = 28.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 373 pins.
+[INFO DRT-0081]   Complete 52 unique inst patterns.
+[INFO DRT-0084]   Complete 318 groups.
+#scanned instances     = 453
+#unique  instances     = 52
+#stdCellGenAp          = 1188
+#stdCellValidPlanarAp  = 28
+#stdCellValidViaAp     = 910
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 1182
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:11, memory = 283.60 (MB), peak = 283.60 (MB)
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 1834
+[INFO GRT-0019] Found 10 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 26
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal       6230          1885          69.74%
+met2       Vertical         4459          1781          60.06%
+met3       Horizontal       3115          1336          57.11%
+met4       Vertical         1820           754          58.57%
+met5       Horizontal        623           280          55.06%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 2309
+[INFO GRT-0198] Via related Steiner nodes: 55
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 2955
+[INFO GRT-0112] Final usage 3D: 10303
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              1885           570           30.24%             0 /  0 /  0
+met2              1781           625           35.09%             0 /  0 /  0
+met3              1336           194           14.52%             0 /  0 /  0
+met4               754            49            6.50%             0 /  0 /  0
+met5               280             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             6036          1438           23.82%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 16456 um
+[INFO GRT-0014] Routed nets: 325
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0012] Found 0 antenna violations.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO DRT-0149] Reading tech and libs.
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer mcon
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via2
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via3
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+[WARNING DRT-0349] LEF58_ENCLOSURE with no CUTCLASS is not supported. Skipping for layer via4
+
+Units:                1000
+Number of layers:     13
+Number of macros:     437
+Number of vias:       29
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+
+Design:                   b64_memory
+Die area:                 ( 0 0 ) ( 150000 100000 )
+Number of track patterns: 12
+Number of DEF vias:       0
+Number of components:     453
+Number of terminals:      24
+Number of snets:          2
+Number of nets:           325
+
+[INFO DRT-0167] List of default vias:
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 52.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete FR_MASTERSLICE.
+[INFO DRT-0024]   Complete licon.
+[INFO DRT-0024]   Complete li1.
+[INFO DRT-0024]   Complete mcon.
+[INFO DRT-0024]   Complete met1.
+[INFO DRT-0024]   Complete via.
+[INFO DRT-0024]   Complete met2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete met3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete met4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete met5.
+[INFO DRT-0033] FR_MASTERSLICE shape region query size = 0.
+[INFO DRT-0033] licon shape region query size = 0.
+[INFO DRT-0033] li1 shape region query size = 12243.
+[INFO DRT-0033] mcon shape region query size = 0.
+[INFO DRT-0033] met1 shape region query size = 2336.
+[INFO DRT-0033] via shape region query size = 655.
+[INFO DRT-0033] met2 shape region query size = 409.
+[INFO DRT-0033] via2 shape region query size = 524.
+[INFO DRT-0033] met3 shape region query size = 401.
+[INFO DRT-0033] via3 shape region query size = 524.
+[INFO DRT-0033] met4 shape region query size = 163.
+[INFO DRT-0033] via4 shape region query size = 23.
+[INFO DRT-0033] met5 shape region query size = 28.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 373 pins.
+[INFO DRT-0081]   Complete 52 unique inst patterns.
+[INFO DRT-0084]   Complete 318 groups.
+#scanned instances     = 453
+#unique  instances     = 52
+#stdCellGenAp          = 1188
+#stdCellValidPlanarAp  = 28
+#stdCellValidViaAp     = 910
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 1182
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:09, memory = 286.38 (MB), peak = 306.48 (MB)
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0036] FR_MASTERSLICE guide region query size = 0.
+[INFO DRT-0036] licon guide region query size = 0.
+[INFO DRT-0036] li1 guide region query size = 1010.
+[INFO DRT-0036] mcon guide region query size = 0.
+[INFO DRT-0036] met1 guide region query size = 935.
+[INFO DRT-0036] via guide region query size = 0.
+[INFO DRT-0036] met2 guide region query size = 527.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] met3 guide region query size = 78.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] met4 guide region query size = 22.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] met5 guide region query size = 0.
+[INFO DRT-0179] Init gr pin query.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO DPL-0001] Placed 951 filler instances.
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /home/anilk/OpenROAD/test/sky130hd/sky130hd.rcx_rules ...
+[INFO RCX-0436] RC segment generation b64_memory (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 1463 rc segments
+[INFO RCX-0439] Coupling Cap extraction b64_memory ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 56% of 2772 wires extracted
+[INFO RCX-0442] 100% of 2772 wires extracted
+[INFO RCX-0045] Extract 325 nets, 1788 rsegs, 1788 caps, 2573 ccs
+[INFO RCX-0443] 325 nets finished
+Startpoint: wrdata[0] (input port clocked by CLK)
+Endpoint: _347_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+                     0.000    0.000   clock CLK (rise edge)
+                     0.000    0.000   clock network delay (propagated)
+                     0.080    0.080 v input external delay
+   0.007    0.000    0.000    0.080 v wrdata[0] (in)
+            0.000    0.000    0.080 v hold54/A (sky130_fd_sc_hd__dlygate4sd3_1)
+   0.008    0.081    0.567    0.647 v hold54/X (sky130_fd_sc_hd__dlygate4sd3_1)
+            0.081    0.000    0.648 v _212_/C_N (sky130_fd_sc_hd__nor3b_1)
+   0.003    0.036    0.149    0.797 v _212_/Y (sky130_fd_sc_hd__nor3b_1)
+            0.036    0.000    0.797 v _347_/D (sky130_fd_sc_hd__edfxtp_1)
+                              0.797   data arrival time
+
+                     0.000    0.000   clock CLK (rise edge)
+                     0.000    0.000   clock source latency
+   0.013    0.000    0.000    0.000 ^ clk (in)
+            0.000    0.000    0.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.049    0.155    0.199    0.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.155    0.002    0.201 ^ clkbuf_3_6__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.037    0.119    0.229    0.431 ^ clkbuf_3_6__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.119    0.001    0.431 ^ _347_/CLK (sky130_fd_sc_hd__edfxtp_1)
+                     0.080    0.511   clock uncertainty
+                     0.000    0.511   clock reconvergence pessimism
+                    -0.153    0.359   library hold time
+                              0.359   data required time
+---------------------------------------------------------------------------
+                              0.359   data required time
+                             -0.797   data arrival time
+---------------------------------------------------------------------------
+                              0.438   slack (MET)
+
+
+Startpoint: _383_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _408_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+                     0.000    0.000   clock CLK (rise edge)
+                     0.000    0.000   clock source latency
+   0.013    0.000    0.000    0.000 ^ clk (in)
+            0.000    0.000    0.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.049    0.155    0.199    0.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.155    0.002    0.201 ^ clkbuf_3_0__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.032    0.107    0.220    0.421 ^ clkbuf_3_0__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.107    0.001    0.422 ^ _383_/CLK (sky130_fd_sc_hd__edfxtp_1)
+   0.003    0.071    0.381    0.803 v _383_/Q (sky130_fd_sc_hd__edfxtp_1)
+            0.071    0.000    0.803 v _180_/A3 (sky130_fd_sc_hd__mux4_2)
+   0.003    0.081    0.469    1.272 v _180_/X (sky130_fd_sc_hd__mux4_2)
+            0.081    0.000    1.272 v _181_/A1 (sky130_fd_sc_hd__mux2_1)
+   0.020    0.134    0.393    1.666 v _181_/X (sky130_fd_sc_hd__mux2_1)
+            0.134    0.002    1.668 v _408_/D (sky130_fd_sc_hd__edfxtp_1)
+                              1.668   data arrival time
+
+                    10.000   10.000   clock CLK (rise edge)
+                     0.000   10.000   clock source latency
+   0.013    0.000    0.000   10.000 ^ clk (in)
+            0.000    0.000   10.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.049    0.155    0.199   10.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.155    0.002   10.201 ^ clkbuf_3_7__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
+   0.031    0.104    0.218   10.419 ^ clkbuf_3_7__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
+            0.104    0.001   10.420 ^ _408_/CLK (sky130_fd_sc_hd__edfxtp_1)
+                    -0.080   10.340   clock uncertainty
+                     0.000   10.340   clock reconvergence pessimism
+                    -0.268   10.072   library setup time
+                             10.072   data required time
+---------------------------------------------------------------------------
+                             10.072   data required time
+                             -1.668   data arrival time
+---------------------------------------------------------------------------
+                              8.404   slack (MET)
+
+
+worst slack min 0.438
+worst slack max 8.404
+tns max 0.000
+Clock CLK
+  0.431 source latency _386_/CLK ^
+ -0.420 target latency _405_/CLK ^
+  0.080 clock uncertainty
+  0.000 CRPR
+--------------
+  0.091 setup skew
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             3.50e-04   4.05e-06   6.89e-10   3.54e-04  51.8%
+Combinational          3.84e-05   4.13e-05   6.50e-10   7.97e-05  11.7%
+Clock                  1.50e-04   1.00e-04   1.07e-10   2.50e-04  36.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  5.39e-04   1.45e-04   1.45e-09   6.84e-04 100.0%
+                          78.8%      21.2%       0.0%
+Design area 4324 um^2 44% utilization.
