@@ -79,6 +79,7 @@ set_macro_extension 2
 global_placement -density $global_place_density \
   -pad_left $global_place_pad -pad_right $global_place_pad -skip_io
 
+
 # IO Placement
 place_pins -hor_layers $io_placer_hor_layer -ver_layers $io_placer_ver_layer -group_pins {clk rst we} \
   -group_pins {addr[0] addr[1] addr[2]} \
