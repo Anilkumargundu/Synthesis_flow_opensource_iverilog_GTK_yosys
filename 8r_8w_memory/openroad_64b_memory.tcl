@@ -81,7 +81,6 @@ global_placement -density $global_place_density \
 
 # IO Placement
 place_pins -hor_layers $io_placer_hor_layer -ver_layers $io_placer_ver_layer -group_pins {clk rst we} \
-  -group_pins {VDD VSS} \
   -group_pins {addr[0] addr[1] addr[2]} \
   -group_pins {wrdata[0] wrdata[1] wrdata[2] wrdata[3] wrdata[4] wrdata[5] wrdata[6] wrdata[7]} \
   -group_pins {rddata[0] rddata[1] rddata[2] rddata[3] rddata[4] rddata[5] rddata[6] rddata[7]} \

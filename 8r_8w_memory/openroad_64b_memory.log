@@ -12,15 +12,6 @@ The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/anilk/whyRD_e
 [INFO RSZ-0026] Removed 0 buffers.
 [WARNING PPL-0113] -random and -random_seed are obsolete. Skipping random pin placement.
 [INFO TAP-0005] Inserted 135 tapcells.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
-[WARNING ORD-0046] -defer_connection has been deprecated.
 [INFO PDN-0001] Inserting grid: grid
 [INFO GPL-0005] Execute conjugate gradient initial placement.
 [INFO GPL-0002] DBU: 1000
@@ -104,18 +95,17 @@ Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
 [INFO GPL-1014] Final placement area: 6019.52 (+0.00%)
 Found 0 macro blocks.
 [INFO PPL-0044] Pin group: [ clk rst we ]
-[INFO PPL-0044] Pin group: [ VDD VSS ]
 [INFO PPL-0044] Pin group: [ addr[0] addr[1] addr[2] ]
 [INFO PPL-0044] Pin group: [ wrdata[0] wrdata[1] wrdata[2] wrdata[3] wrdata[4] ... ]
 [INFO PPL-0044] Pin group: [ rddata[0] rddata[1] rddata[2] rddata[3] rddata[4] ... ]
 [INFO PPL-0001] Number of available slots 96
-[INFO PPL-0002] Number of I/O             24
-[INFO PPL-0003] Number of I/O w/sink      24
+[INFO PPL-0002] Number of I/O             22
+[INFO PPL-0003] Number of I/O w/sink      22
 [INFO PPL-0004] Number of I/O w/o sink    0
-[INFO PPL-0006] Number of I/O Groups    5
+[INFO PPL-0006] Number of I/O Groups    4
 [INFO PPL-0005] Slots per section         200
 [INFO PPL-0008] Successfully assigned pins to sections.
-[INFO PPL-0012] I/O nets HPWL: 2740.55 um.
+[INFO PPL-0012] I/O nets HPWL: 2319.75 um.
 [INFO GPL-0005] Execute conjugate gradient initial placement.
 [INFO GPL-0002] DBU: 1000
 [INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
@@ -225,7 +215,7 @@ Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
 [INFO GPL-1014] Final placement area: 6019.52 (+0.00%)
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       258
+        0 |     +0.0% |       0 |       0 |             0 |       256
     final |     +9.9% |       8 |      47 |            20 |         0
 ---------------------------------------------------------------------
 [INFO RSZ-0034] Found 18 slew violations.
@@ -234,7 +224,7 @@ Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 [INFO RSZ-0038] Inserted 47 buffers in 20 nets.
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       305
+        0 |     +0.0% |       0 |       0 |             0 |       303
     final |     +1.7% |       6 |       5 |             6 |         0
 ---------------------------------------------------------------------
 [INFO RSZ-0034] Found 6 slew violations.
@@ -242,12 +232,12 @@ Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 [INFO RSZ-0038] Inserted 5 buffers in 6 nets.
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       310
+        0 |     +0.0% |       0 |       0 |             0 |       308
     final |     +0.0% |       0 |       0 |             0 |         0
 ---------------------------------------------------------------------
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       310
+        0 |     +0.0% |       0 |       0 |             0 |       308
     final |     +0.0% |       0 |       0 |             0 |         0
 ---------------------------------------------------------------------
 Placement Analysis
@@ -366,7 +356,7 @@ Die area:                 ( 0 0 ) ( 150000 100000 )
 Number of track patterns: 12
 Number of DEF vias:       0
 Number of components:     453
-Number of terminals:      24
+Number of terminals:      22
 Number of snets:          2
 Number of nets:           325
 
@@ -402,7 +392,7 @@ Number of nets:           325
 [INFO DRT-0033] mcon shape region query size = 0.
 [INFO DRT-0033] met1 shape region query size = 2336.
 [INFO DRT-0033] via shape region query size = 655.
-[INFO DRT-0033] met2 shape region query size = 409.
+[INFO DRT-0033] met2 shape region query size = 407.
 [INFO DRT-0033] via2 shape region query size = 524.
 [INFO DRT-0033] met3 shape region query size = 401.
 [INFO DRT-0033] via3 shape region query size = 524.
@@ -426,7 +416,7 @@ Number of nets:           325
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:11, memory = 283.60 (MB), peak = 283.60 (MB)
+[INFO DRT-0267] cpu time = 00:00:10, elapsed time = 00:00:11, memory = 284.14 (MB), peak = 284.14 (MB)
 [INFO GRT-0020] Min routing layer: met1
 [INFO GRT-0021] Max routing layer: met5
 [INFO GRT-0022] Global adjustment: 0%
@@ -505,7 +495,7 @@ Die area:                 ( 0 0 ) ( 150000 100000 )
 Number of track patterns: 12
 Number of DEF vias:       0
 Number of components:     453
-Number of terminals:      24
+Number of terminals:      22
 Number of snets:          2
 Number of nets:           325
 
@@ -541,7 +531,7 @@ Number of nets:           325
 [INFO DRT-0033] mcon shape region query size = 0.
 [INFO DRT-0033] met1 shape region query size = 2336.
 [INFO DRT-0033] via shape region query size = 655.
-[INFO DRT-0033] met2 shape region query size = 409.
+[INFO DRT-0033] met2 shape region query size = 407.
 [INFO DRT-0033] via2 shape region query size = 524.
 [INFO DRT-0033] met3 shape region query size = 401.
 [INFO DRT-0033] via3 shape region query size = 524.
@@ -565,7 +555,7 @@ Number of nets:           325
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:09, memory = 286.38 (MB), peak = 306.48 (MB)
+[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:08, memory = 286.88 (MB), peak = 307.02 (MB)
 [INFO DRT-0178] Init guide query.
 [INFO DRT-0036] FR_MASTERSLICE guide region query size = 0.
 [INFO DRT-0036] licon guide region query size = 0.
@@ -634,68 +624,4 @@ Path Type: min
                               0.438   slack (MET)
 
 
-Startpoint: _383_ (rising edge-triggered flip-flop clocked by CLK)
-Endpoint: _408_ (rising edge-triggered flip-flop clocked by CLK)
-Path Group: CLK
-Path Type: max
-
-     Cap     Slew    Delay     Time   Description
----------------------------------------------------------------------------
-                     0.000    0.000   clock CLK (rise edge)
-                     0.000    0.000   clock source latency
-   0.013    0.000    0.000    0.000 ^ clk (in)
-            0.000    0.000    0.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.049    0.155    0.199    0.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.155    0.002    0.201 ^ clkbuf_3_0__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.032    0.107    0.220    0.421 ^ clkbuf_3_0__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.107    0.001    0.422 ^ _383_/CLK (sky130_fd_sc_hd__edfxtp_1)
-   0.003    0.071    0.381    0.803 v _383_/Q (sky130_fd_sc_hd__edfxtp_1)
-            0.071    0.000    0.803 v _180_/A3 (sky130_fd_sc_hd__mux4_2)
-   0.003    0.081    0.469    1.272 v _180_/X (sky130_fd_sc_hd__mux4_2)
-            0.081    0.000    1.272 v _181_/A1 (sky130_fd_sc_hd__mux2_1)
-   0.020    0.134    0.393    1.666 v _181_/X (sky130_fd_sc_hd__mux2_1)
-            0.134    0.002    1.668 v _408_/D (sky130_fd_sc_hd__edfxtp_1)
-                              1.668   data arrival time
-
-                    10.000   10.000   clock CLK (rise edge)
-                     0.000   10.000   clock source latency
-   0.013    0.000    0.000   10.000 ^ clk (in)
-            0.000    0.000   10.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.049    0.155    0.199   10.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.155    0.002   10.201 ^ clkbuf_3_7__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.031    0.104    0.218   10.419 ^ clkbuf_3_7__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.104    0.001   10.420 ^ _408_/CLK (sky130_fd_sc_hd__edfxtp_1)
-                    -0.080   10.340   clock uncertainty
-                     0.000   10.340   clock reconvergence pessimism
-                    -0.268   10.072   library setup time
-                             10.072   data required time
----------------------------------------------------------------------------
-                             10.072   data required time
-                             -1.668   data arrival time
----------------------------------------------------------------------------
-                              8.404   slack (MET)
-
-
-worst slack min 0.438
-worst slack max 8.404
-tns max 0.000
-Clock CLK
-  0.431 source latency _386_/CLK ^
- -0.420 target latency _405_/CLK ^
-  0.080 clock uncertainty
-  0.000 CRPR
---------------
-  0.091 setup skew
-
-Group                  Internal  Switching    Leakage      Total
-                          Power      Power      Power      Power (Watts)
-----------------------------------------------------------------
-Sequential             3.50e-04   4.05e-06   6.89e-10   3.54e-04  51.8%
-Combinational          3.84e-05   4.13e-05   6.50e-10   7.97e-05  11.7%
-Clock                  1.50e-04   1.00e-04   1.07e-10   2.50e-04  36.5%
-Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-----------------------------------------------------------------
-Total                  5.39e-04   1.45e-04   1.45e-09   6.84e-04 100.0%
-                          78.8%      21.2%       0.0%
-Design area 4324 um^2 44% utilization.
+Startpoint: _383_ (rising edge-triggered flip-flop cl

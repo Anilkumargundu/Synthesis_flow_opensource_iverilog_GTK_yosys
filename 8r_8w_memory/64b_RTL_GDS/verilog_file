@@ -1,13 +1,9 @@
-module b64_memory (VDD,
-    VSS,
-    clk,
+module b64_memory (clk,
     rst,
     we,
     addr,
     rddata,
     wrdata);
- inout VDD;
- inout VSS;
  input clk;
  input rst;
  input we;
