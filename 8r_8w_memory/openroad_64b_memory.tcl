@@ -55,13 +55,13 @@ write_def "$BASE_PATH/post_tapcell.def"
 #-----pdn_cfg file is again defined in the sky_var_bkp.vars-------- #-----------  these all subblocks you can get from flow.tcl
 
 #addedby Anil
-set ::env(USE_POWER_PINS) 1
+#set ::env(USE_POWER_PINS) 1
 #set ::env(FP_PDN_CHECK_NODES) 0
 #addedby Anil
 
 source $pdn_cfg
 pdngen
-global_connect
+
 write_def "$BASE_PATH/post_pdn.def"
 
 # Step 9: # Global placement : 
@@ -90,7 +90,7 @@ place_pins -hor_layers $io_placer_hor_layer -ver_layers $io_placer_ver_layer -gr
 # Global placement with placed IOs and routability-driven
 global_placement -routability_driven -density $global_place_density \
   -pad_left $global_place_pad -pad_right $global_place_pad
-
+global_connect
 # checkpoint
 set global_place_db [make_result_file ${design}_${platform}_global_place.db]
 write_def "$BASE_PATH/global_place.def"
