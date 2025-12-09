@@ -5,7 +5,9 @@ module b64_memory (
     we,
     addr,
     wrdata,
-    rddata
+    rddata,
+    VPWR,
+    VGND
 );
     parameter ADDR_WIDTH = 3;
     parameter DATA_WIDTH = 8;
@@ -16,8 +18,8 @@ module b64_memory (
     input  wire [ADDR_WIDTH-1:0]  addr;
     input  wire [DATA_WIDTH-1:0]  wrdata;
     output reg  [DATA_WIDTH-1:0]  rddata;
-    //inout wire VDD;
-    //inout wire VSS;
+    inout wire VPWR;
+    inout wire VGND;
     reg [DATA_WIDTH-1:0] rem_memory_temp [0:DEPTH-1];
     integer i;  // procedural loop variable
     //wire power_ok;

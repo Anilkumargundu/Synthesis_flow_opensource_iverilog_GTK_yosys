@@ -423,7 +423,9 @@ COMPONENTS 377 ;
     - _410_ sky130_fd_sc_hd__edfxtp_1 ;
     - _411_ sky130_fd_sc_hd__edfxtp_1 ;
 END COMPONENTS
-PINS 22 ;
+PINS 24 ;
+    - VGND + NET VGND + DIRECTION INOUT + USE SIGNAL ;
+    - VPWR + NET VPWR + DIRECTION INOUT + USE SIGNAL ;
     - addr[0] + NET addr[0] + DIRECTION INPUT + USE SIGNAL ;
     - addr[1] + NET addr[1] + DIRECTION INPUT + USE SIGNAL ;
     - addr[2] + NET addr[2] + DIRECTION INPUT + USE SIGNAL ;
@@ -447,7 +449,9 @@ PINS 22 ;
     - wrdata[6] + NET wrdata[6] + DIRECTION INPUT + USE SIGNAL ;
     - wrdata[7] + NET wrdata[7] + DIRECTION INPUT + USE SIGNAL ;
 END PINS
-NETS 256 ;
+NETS 258 ;
+    - VGND ( PIN VGND ) + USE SIGNAL ;
+    - VPWR ( PIN VPWR ) + USE SIGNAL ;
     - _000_ ( _403_ DE ) ( _197_ Y ) + USE SIGNAL ;
     - _001_ ( _402_ DE ) ( _284_ Y ) + USE SIGNAL ;
     - _002_ ( _401_ DE ) ( _285_ Y ) + USE SIGNAL ;

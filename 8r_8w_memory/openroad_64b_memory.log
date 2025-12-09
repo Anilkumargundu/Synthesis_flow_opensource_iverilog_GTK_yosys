@@ -99,13 +99,13 @@ Found 0 macro blocks.
 [INFO PPL-0044] Pin group: [ wrdata[0] wrdata[1] wrdata[2] wrdata[3] wrdata[4] ... ]
 [INFO PPL-0044] Pin group: [ rddata[0] rddata[1] rddata[2] rddata[3] rddata[4] ... ]
 [INFO PPL-0001] Number of available slots 96
-[INFO PPL-0002] Number of I/O             22
-[INFO PPL-0003] Number of I/O w/sink      22
+[INFO PPL-0002] Number of I/O             24
+[INFO PPL-0003] Number of I/O w/sink      24
 [INFO PPL-0004] Number of I/O w/o sink    0
 [INFO PPL-0006] Number of I/O Groups    4
 [INFO PPL-0005] Slots per section         200
 [INFO PPL-0008] Successfully assigned pins to sections.
-[INFO PPL-0012] I/O nets HPWL: 2319.75 um.
+[INFO PPL-0012] I/O nets HPWL: 2716.14 um.
 [INFO GPL-0005] Execute conjugate gradient initial placement.
 [INFO GPL-0002] DBU: 1000
 [INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
@@ -215,7 +215,7 @@ Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
 [INFO GPL-1014] Final placement area: 6019.52 (+0.00%)
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       256
+        0 |     +0.0% |       0 |       0 |             0 |       258
     final |     +9.9% |       8 |      47 |            20 |         0
 ---------------------------------------------------------------------
 [INFO RSZ-0034] Found 18 slew violations.
@@ -224,7 +224,7 @@ Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 [INFO RSZ-0038] Inserted 47 buffers in 20 nets.
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       303
+        0 |     +0.0% |       0 |       0 |             0 |       305
     final |     +1.7% |       6 |       5 |             6 |         0
 ---------------------------------------------------------------------
 [INFO RSZ-0034] Found 6 slew violations.
@@ -232,12 +232,12 @@ Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 [INFO RSZ-0038] Inserted 5 buffers in 6 nets.
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       308
+        0 |     +0.0% |       0 |       0 |             0 |       310
     final |     +0.0% |       0 |       0 |             0 |         0
 ---------------------------------------------------------------------
 Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
 ---------------------------------------------------------------------
-        0 |     +0.0% |       0 |       0 |             0 |       308
+        0 |     +0.0% |       0 |       0 |             0 |       310
     final |     +0.0% |       0 |       0 |             0 |         0
 ---------------------------------------------------------------------
 Placement Analysis
@@ -356,7 +356,7 @@ Die area:                 ( 0 0 ) ( 150000 100000 )
 Number of track patterns: 12
 Number of DEF vias:       0
 Number of components:     453
-Number of terminals:      22
+Number of terminals:      24
 Number of snets:          2
 Number of nets:           325
 
@@ -392,7 +392,7 @@ Number of nets:           325
 [INFO DRT-0033] mcon shape region query size = 0.
 [INFO DRT-0033] met1 shape region query size = 2336.
 [INFO DRT-0033] via shape region query size = 655.
-[INFO DRT-0033] met2 shape region query size = 407.
+[INFO DRT-0033] met2 shape region query size = 409.
 [INFO DRT-0033] via2 shape region query size = 524.
 [INFO DRT-0033] met3 shape region query size = 401.
 [INFO DRT-0033] via3 shape region query size = 524.
@@ -416,7 +416,7 @@ Number of nets:           325
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:10, elapsed time = 00:00:11, memory = 284.14 (MB), peak = 284.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:14, elapsed time = 00:00:14, memory = 283.84 (MB), peak = 283.84 (MB)
 [INFO GRT-0020] Min routing layer: met1
 [INFO GRT-0021] Max routing layer: met5
 [INFO GRT-0022] Global adjustment: 0%
@@ -495,7 +495,7 @@ Die area:                 ( 0 0 ) ( 150000 100000 )
 Number of track patterns: 12
 Number of DEF vias:       0
 Number of components:     453
-Number of terminals:      22
+Number of terminals:      24
 Number of snets:          2
 Number of nets:           325
 
@@ -531,7 +531,7 @@ Number of nets:           325
 [INFO DRT-0033] mcon shape region query size = 0.
 [INFO DRT-0033] met1 shape region query size = 2336.
 [INFO DRT-0033] via shape region query size = 655.
-[INFO DRT-0033] met2 shape region query size = 407.
+[INFO DRT-0033] met2 shape region query size = 409.
 [INFO DRT-0033] via2 shape region query size = 524.
 [INFO DRT-0033] met3 shape region query size = 401.
 [INFO DRT-0033] via3 shape region query size = 524.
@@ -546,82 +546,4 @@ Number of nets:           325
 #unique  instances     = 52
 #stdCellGenAp          = 1188
 #stdCellValidPlanarAp  = 28
-#stdCellValidViaAp     = 910
-#stdCellPinNoAp        = 0
-#stdCellPinCnt         = 1182
-#instTermValidViaApCnt = 0
-#macroGenAp            = 0
-#macroValidPlanarAp    = 0
-#macroValidViaAp       = 0
-#macroNoAp             = 0
-[INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:09, elapsed time = 00:00:08, memory = 286.88 (MB), peak = 307.02 (MB)
-[INFO DRT-0178] Init guide query.
-[INFO DRT-0036] FR_MASTERSLICE guide region query size = 0.
-[INFO DRT-0036] licon guide region query size = 0.
-[INFO DRT-0036] li1 guide region query size = 1010.
-[INFO DRT-0036] mcon guide region query size = 0.
-[INFO DRT-0036] met1 guide region query size = 935.
-[INFO DRT-0036] via guide region query size = 0.
-[INFO DRT-0036] met2 guide region query size = 527.
-[INFO DRT-0036] via2 guide region query size = 0.
-[INFO DRT-0036] met3 guide region query size = 78.
-[INFO DRT-0036] via3 guide region query size = 0.
-[INFO DRT-0036] met4 guide region query size = 22.
-[INFO DRT-0036] via4 guide region query size = 0.
-[INFO DRT-0036] met5 guide region query size = 0.
-[INFO DRT-0179] Init gr pin query.
-[INFO ANT-0002] Found 0 net violations.
-[INFO ANT-0001] Found 0 pin violations.
-[INFO ANT-0002] Found 0 net violations.
-[INFO ANT-0001] Found 0 pin violations.
-[INFO DPL-0001] Placed 951 filler instances.
-[INFO RCX-0431] Defined process_corner X with ext_model_index 0
-[INFO RCX-0029] Defined extraction corner X
-[INFO RCX-0435] Reading extraction model file /home/anilk/OpenROAD/test/sky130hd/sky130hd.rcx_rules ...
-[INFO RCX-0436] RC segment generation b64_memory (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 1463 rc segments
-[INFO RCX-0439] Coupling Cap extraction b64_memory ...
-[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0442] 56% of 2772 wires extracted
-[INFO RCX-0442] 100% of 2772 wires extracted
-[INFO RCX-0045] Extract 325 nets, 1788 rsegs, 1788 caps, 2573 ccs
-[INFO RCX-0443] 325 nets finished
-Startpoint: wrdata[0] (input port clocked by CLK)
-Endpoint: _347_ (rising edge-triggered flip-flop clocked by CLK)
-Path Group: CLK
-Path Type: min
-
-     Cap     Slew    Delay     Time   Description
----------------------------------------------------------------------------
-                     0.000    0.000   clock CLK (rise edge)
-                     0.000    0.000   clock network delay (propagated)
-                     0.080    0.080 v input external delay
-   0.007    0.000    0.000    0.080 v wrdata[0] (in)
-            0.000    0.000    0.080 v hold54/A (sky130_fd_sc_hd__dlygate4sd3_1)
-   0.008    0.081    0.567    0.647 v hold54/X (sky130_fd_sc_hd__dlygate4sd3_1)
-            0.081    0.000    0.648 v _212_/C_N (sky130_fd_sc_hd__nor3b_1)
-   0.003    0.036    0.149    0.797 v _212_/Y (sky130_fd_sc_hd__nor3b_1)
-            0.036    0.000    0.797 v _347_/D (sky130_fd_sc_hd__edfxtp_1)
-                              0.797   data arrival time
-
-                     0.000    0.000   clock CLK (rise edge)
-                     0.000    0.000   clock source latency
-   0.013    0.000    0.000    0.000 ^ clk (in)
-            0.000    0.000    0.000 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.049    0.155    0.199    0.199 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.155    0.002    0.201 ^ clkbuf_3_6__f_clk/A (sky130_fd_sc_hd__clkbuf_4)
-   0.037    0.119    0.229    0.431 ^ clkbuf_3_6__f_clk/X (sky130_fd_sc_hd__clkbuf_4)
-            0.119    0.001    0.431 ^ _347_/CLK (sky130_fd_sc_hd__edfxtp_1)
-                     0.080    0.511   clock uncertainty
-                     0.000    0.511   clock reconvergence pessimism
-                    -0.153    0.359   library hold time
-                              0.359   data required time
----------------------------------------------------------------------------
-                              0.359   data required time
-                             -0.797   data arrival time
----------------------------------------------------------------------------
-                              0.438   slack (MET)
-
-
-Startpoint: _383_ (rising edge-triggered flip-flop cl
+#stdCellValidViaAp     
