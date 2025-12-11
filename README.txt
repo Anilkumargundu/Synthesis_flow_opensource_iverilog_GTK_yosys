@@ -1,4 +1,4 @@
-# Synthesis_flow_opensource_iverilog_GTK_yosys
+**Synthesis_flow_opensource_iverilog_GTK_yosys**
 This project follows a standard open-source digital design flow from RTL → Synthesis → STA → Physical Design (GDS). The files used at each stage are listed below.
 
 🔹 1. RTL Level (Design & Simulation) These files define the design and verify functionality before synthesis. 64b_memory.v RTL Verilog description of the 64-bit memory design.
